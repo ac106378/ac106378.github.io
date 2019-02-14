@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="gallery">
 
 <head>
     <title>Tony Comito's Github Site</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" type="text/css" href="styles/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
@@ -11,7 +12,7 @@
 <body>
 
     <header>
-        <h1>Tony Comito's Github Site</h1>
+        <h1 class="name">Tony Comito's Github Site</h1>
 
         <!-- Navigation at Top -->
         <nav>
@@ -33,17 +34,24 @@
         <h3>Image Gallery</h3>
         <section>
             <h2>Frogs</h2>
-            <img src="media/016.jpg" alt="Picture of Frog" width="400">
-            <p>I really enjoy Frogs. They're my favorite animal, but the passion runs deep. They're rad. I love 'em.
-                This one is wearing snails like they're airPods. Unfortunately this doesn't come with the same
+            <div class="gallery-img">
+                <img src="media/amphibian-animal-close-up-76957.jpg" alt="Picture of Frog">
+            </div>
+            <p>I really enjoy Frogs. They're my favorite animal, but the passion runs deep. They're rad. I love 'em.</p>
+
+            <p>This one is wearing snails like they're airPods. Unfortunately this doesn't come with the same
                 opulence. Bummer.</p>
         </section>
         <section>
             <h2>California State University<br>Fullerton</h2>
-            <img src="media/csuf-campus.png" alt="Picture of California State University Fullerton" width="400">
-            <p>This is a picture of the school i'm attending. It's by far the nicest school I've attended. I've only
+            <div class="gallery-img">
+                <img src="media/architecture-building-campus-356086.jpg" alt="Picture of University">
+            </div>
+            <p>This is a picture that looks similar to the school i'm attending. It's by far the nicest school I've
+                attended. I've only
                 attended three schools, two of which were junior colleges. Even further, one was in the deep
-                appalachian hills of south east Kentucky. So yeah, CSUF has been pretty nice in retrospect. I'm
+                appalachian hills of south east Kentucky. </p>
+            <p>So yeah, CSUF has been pretty nice in retrospect. I'm
                 graduating from here soon so I need to take some graduation pictures. I'll probably take one like this,
                 but with me in it. You can probably picture it.</p>
         </section>
@@ -51,7 +59,7 @@
 
     <!-- Footer -->
     <footer>
-        &copy; Tony Comito | 2019
+        Tony Comito | 2019
     </footer>
 </body>
 
